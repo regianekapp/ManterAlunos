@@ -1,4 +1,8 @@
 export interface Aluno{
-    nome:string
-    preco:number
+    id: number;
+    nome: string;
+    site: string;
+    endereco: string;
+    telefone: string;
+    nota: number;
 }
